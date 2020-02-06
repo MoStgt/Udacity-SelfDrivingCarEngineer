@@ -11,13 +11,16 @@ imgpoints = dist_pickle["imgpoints"]
 
 # Read in an image
 img = cv2.imread('test_image.png')
+img_size = (img.shape[1], img.shape[0])
 
 # TODO: Write a function that takes an image, object points, and image points
 # performs the camera calibration, image distortion correction and 
 # returns the undistorted image
 def cal_undistort(img, objpoints, imgpoints):
     # Use cv2.calibrateCamera() and cv2.undistort()
-    undist = np.copy(img)  # Delete this line
+    ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(objpoints, imgpoints, img_size,None,None)
+    undist = cv2.undistort(img, mtx, dist, None, mtx)
+    #undist = np.copy(img)  # Delete this line
     return undist
 
 undistorted = cal_undistort(img, objpoints, imgpoints)
@@ -29,3 +32,4 @@ ax1.set_title('Original Image', fontsize=50)
 ax2.imshow(undistorted)
 ax2.set_title('Undistorted Image', fontsize=50)
 plt.subplots_adjust(left=0., right=1, top=0.9, bottom=0.)
+plt.show()

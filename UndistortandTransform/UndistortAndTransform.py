@@ -34,7 +34,7 @@ def corners_unwarp(img, nx, ny, mtx, dist):
         # Choose offset from image corners to plot detected corners
         # This should be chosen to present the result at the proper aspect ratio
         # My choice of 100 pixels is not exact, but close enough for our purpose here
-        offset = 100 # offset for dst points
+        offset = 150# offset for dst points
         # Grab the image shape
         img_size = (gray.shape[1], gray.shape[0])
 

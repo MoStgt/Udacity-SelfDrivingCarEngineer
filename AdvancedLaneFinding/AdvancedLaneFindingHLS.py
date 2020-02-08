@@ -17,14 +17,14 @@ def hls_select(img, thresh=(0, 255)):
     S = hls[:, :, 2]
     # 2) Apply a threshold to the S channel
     binary = np.zeros_like(S)
-    binary[(S > thresh[0]) & (S < thresh[1])]=1
+    binary[(S > thresh[0]) & (S <= thresh[1])] = 1
     # 3) Return a binary image of threshold result
 
     return  binary
 
 
 # Optional TODO - tune the threshold to try to match the above image!
-hls_binary = hls_select(image, thresh=(60, 255))
+hls_binary = hls_select(image, thresh=(90, 255))
 
 # Plot the result
 f, (ax1, ax2) = plt.subplots(1, 2, figsize=(24, 9))

@@ -16,7 +16,7 @@ dist = dist_pickle["dist"]
 img = cv2.imread('test_image2.png')
 nx = 8 # the number of inside corners in x
 ny = 6 # the number of inside corners in y
-
+#print(img.shape)
 
 # Define a function that takes an image, number of x and y points,
 # camera matrix and distortion coefficients

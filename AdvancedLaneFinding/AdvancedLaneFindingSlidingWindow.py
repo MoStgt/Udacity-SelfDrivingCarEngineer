@@ -16,9 +16,6 @@ def find_lane_pixels(binary_warped):
     # Find the peak of the left and right halves of the histogram
     # These will be the starting point for the left and right lines
     midpoint = np.int(histogram.shape[0] // 2)
-    print(histogram)
-    print(binary_warped.shape)
-    print(histogram)
     leftx_base = np.argmax(histogram[:midpoint])
     rightx_base = np.argmax(histogram[midpoint:]) + midpoint
 

@@ -33,6 +33,7 @@ def find_lane_pixels(binary_warped):
     nonzero = binary_warped.nonzero()
     nonzeroy = np.array(nonzero[0])
     nonzerox = np.array(nonzero[1])
+
     # Current positions to be updated later for each window in nwindows
     leftx_current = leftx_base
     rightx_current = rightx_base
@@ -61,9 +62,11 @@ def find_lane_pixels(binary_warped):
         ### TO-DO: Identify the nonzero pixels in x and y within the window ###
         good_left_inds = ((nonzeroy >= win_y_low) & (nonzeroy < win_y_high) &
         (nonzerox >= win_xleft_low) & (nonzerox < win_xleft_high)).nonzero()[0]
+        print("left", len(good_left_inds))
 
         good_right_inds = ((nonzeroy >= win_y_low) & (nonzeroy < win_y_high) &
         (nonzerox >= win_xright_low) & (nonzerox < win_xright_high)).nonzero()[0]
+        print("right", len(good_right_inds))
 
         # Append these indices to the lists
         left_lane_inds.append(good_left_inds)

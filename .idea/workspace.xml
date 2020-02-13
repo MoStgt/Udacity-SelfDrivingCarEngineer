@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff7c06e2-8c53-4db6-b59a-151da3caccd5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/AdvancedLaneFinding/MeasuringCurvature.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingSlidingWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingSlidingWindow.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,10 +14,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingMagnitudeGrad.py">
+        <entry file="file://$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingSlidingWindow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="1003">
+              <caret line="62" column="12" selection-start-line="62" selection-start-column="7" selection-end-line="63" selection-end-column="79" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -26,67 +26,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingGradientOrien.py">
+        <entry file="file://$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingSearchPrio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="416">
+              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingComb.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingHLS.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingCombGradHLS.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingHistogram.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingSlidingWindow.py">
+        <entry file="file://$PROJECT_DIR$/AdvancedLaneFinding/MeasuringCurvature.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="62" column="12" selection-start-line="62" selection-start-column="7" selection-end-line="63" selection-end-column="79" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="501">
+              <caret line="57" column="61" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -114,6 +69,8 @@
         <option value="$PROJECT_DIR$/AdvancedLaneFinding/test.py" />
         <option value="$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingHistogram.py" />
         <option value="$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingSlidingWindow.py" />
+        <option value="$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingSearchPrio.py" />
+        <option value="$PROJECT_DIR$/AdvancedLaneFinding/MeasuringCurvature.py" />
       </list>
     </option>
   </component>
@@ -128,7 +85,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,6 +101,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -165,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.AdvancedLaneFindingSlidingWindow">
+  <component name="RunManager" selected="Python.AdvancedLaneFindingSearchPrio">
     <configuration name="AdvancedLaneFindingCombGradHLS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Udacity-SelfDrivingCarEngineer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,27 +144,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="AdvancedLaneFindingHLS" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Udacity-SelfDrivingCarEngineer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AdvancedLaneFinding" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingHLS.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="AdvancedLaneFindingHistogram" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Udacity-SelfDrivingCarEngineer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,6 +157,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingHistogram.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AdvancedLaneFindingSearchPrio" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Udacity-SelfDrivingCarEngineer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AdvancedLaneFinding" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingSearchPrio.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -273,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.AdvancedLaneFindingSearchPrio" />
         <item itemvalue="Python.AdvancedLaneFindingSlidingWindow" />
         <item itemvalue="Python.AdvancedLaneFindingHistogram" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.AdvancedLaneFindingCombGradHLS" />
-        <item itemvalue="Python.AdvancedLaneFindingHLS" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +298,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581458618726</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="task completed">
+      <created>1581460243214</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581460243214</updated>
+    </task>
+    <task id="LOCAL-00009" summary="task completed">
+      <created>1581461416994</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581461416994</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -376,13 +347,10 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/AdvancedLaneFinding/test.py" />
-    <entry file="file://$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingMagnitudeGrad.py">
+    <entry file="file://$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingComb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -396,10 +364,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingComb.py">
+    <entry file="file://$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingMagnitudeGrad.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        <state relative-caret-position="255">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -415,7 +386,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingCombGradHLS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="476">
           <caret line="28" column="28" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="28" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -432,11 +403,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingSlidingWindow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="1003">
           <caret line="62" column="12" selection-start-line="62" selection-start-column="7" selection-end-line="63" selection-end-column="79" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingSearchPrio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdvancedLaneFinding/MeasuringCurvature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="57" column="61" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
         </state>
       </provider>
     </entry>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff7c06e2-8c53-4db6-b59a-151da3caccd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AdvancedLaneFinding/MeasuringCurvature.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ff7c06e2-8c53-4db6-b59a-151da3caccd5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AdvancedLaneFinding/MeasuringCurvature.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="57" column="61" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
+            <state relative-caret-position="76">
+              <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -75,9 +72,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="296" />
+    <option name="x" value="295" />
     <option name="y" value="95" />
-    <option name="width" value="854" />
+    <option name="width" value="855" />
     <option name="height" value="880" />
   </component>
   <component name="ProjectView">
@@ -122,28 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.AdvancedLaneFindingSearchPrio">
-    <configuration name="AdvancedLaneFindingCombGradHLS" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Udacity-SelfDrivingCarEngineer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AdvancedLaneFinding" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AdvancedLaneFinding/AdvancedLaneFindingCombGradHLS.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.MeasuringCurvature">
     <configuration name="AdvancedLaneFindingHistogram" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Udacity-SelfDrivingCarEngineer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -207,6 +183,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="MeasuringCurvature" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Udacity-SelfDrivingCarEngineer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AdvancedLaneFinding" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AdvancedLaneFinding/MeasuringCurvature.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Udacity-SelfDrivingCarEngineer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -230,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MeasuringCurvature" />
         <item itemvalue="Python.AdvancedLaneFindingSearchPrio" />
         <item itemvalue="Python.AdvancedLaneFindingSlidingWindow" />
         <item itemvalue="Python.AdvancedLaneFindingHistogram" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.AdvancedLaneFindingCombGradHLS" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581461416994</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="task completed">
+      <created>1581630273117</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1581630273118</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -423,8 +427,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AdvancedLaneFinding/MeasuringCurvature.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="57" column="61" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
+        <state relative-caret-position="76">
+          <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
         </state>
       </provider>
     </entry>

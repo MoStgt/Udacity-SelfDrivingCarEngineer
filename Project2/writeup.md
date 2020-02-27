@@ -97,7 +97,7 @@ To calculate the radius of the curvature and the position of the vehicle with re
 
 Here is an example of my result on a test image:
 
-![Final result image]('./output_images/Test_3_FinalResult.png)
+![Final result image]('./output_images/Test_6_FinalResult.png)
 
 ---
 

@@ -53,13 +53,13 @@ I then used the output `objpoints` and `imgpoints` to compute the camera calibra
 
 I applied this distortion correction to the test image using the `cv2.undistort()` function and obtained this result: 
 
-![Undistorted Image][./output_images/Test3_Undist.png]
+![Undistorted Image](./output_images/Test3_Undist.png)
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
 I used a combination of color and gradient thresholds to generate a binary image. The different thresholds are implemented in code cells 9-14.   Here's an example of my output for this step.
 
-![thresholded binary Image][./output_images/Test_3_combined.png]
+![thresholded binary Image](./output_images/Test_3_combined.png)
 
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
@@ -81,13 +81,13 @@ This resulted in the following source and destination points:
 
 I verified that my perspective transform was working as expected by drawing the `src` and `dst` points onto a test image and its warped counterpart to verify that the lines appear parallel in the warped image.
 
-![Warped straight lines][./output_images/straightLinesWarped.png]
+![Warped straight lines](./output_images/straightLinesWarped.png)
 
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
 After warped the binary thresholded image, the function `find_lane_pixels` was applied. This function fits the right and left lane pixels in a 2nd order polynomial function. To identify the starting point of the lane lines the function `find_lane_pixels` takes half of the image in y-direction and calculates a histogram of the pixels in the image. The maximum from left lane to the midpoint and the maximum from the midpoint to the left lane define the starting point of the lanes.
 
-![Find lane pixels][./output_images/Test_3_findLanePx.png]
+![Find lane pixels](./output_images/Test_3_findLanePx.png)
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
@@ -97,7 +97,7 @@ To calculate the radius of the curvature and the position of the vehicle with re
 
 Here is an example of my result on a test image:
 
-![Final result image]['./output_images/Test_3_FinalResult.png]
+![Final result image]('./output_images/Test_3_FinalResult.png)
 
 ---
 

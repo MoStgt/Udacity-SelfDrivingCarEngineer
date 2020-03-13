@@ -28,6 +28,7 @@ The goals / steps of this project are the following:
 [image7]: ./examples/placeholder.png "Traffic Sign 4"
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
 [image9]: ./imagesWriteUp/ExploratoryTrainData.PNG "Training Data"
+[image10]: ./imagesWriteUp/keepLeftGrayRGB.PNG "Gray vs RGB image"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -66,7 +67,7 @@ As a first step, I decided to convert the images to grayscale because ...
 
 Here is an example of a traffic sign image before and after grayscaling.
 
-![alt text][image2]
+![alt text][image10]
 
 As a last step, I normalized the image data because ...
 

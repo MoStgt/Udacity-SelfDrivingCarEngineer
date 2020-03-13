@@ -149,18 +149,18 @@ The code for making predictions on my final model is located in the 17th cell of
 
 For the first image, the model is relatively sure that this is a Slippery Road  (probability of 1.0), and the image does contain a stop sign. The top five soft max probabilities were
 
-(23, b'Slippery road'): 100.00%
-(19, b'Dangerous curve to the left'): 0.00%
-(10, b'No passing for vehicles over 3.5 metric tons'): 0.00%
-(42, b'End of no passing by vehicles over 3.5 metric tons'): 0.00%
-(21, b'Double curve'): 0.00%
-
-(28, b'Children crossing'): 63.12%
-(11, b'Right-of-way at the next intersection'): 32.57%
-(30, b'Beware of ice/snow'): 4.04%
-(27, b'Pedestrians'): 0.27%
-(34, b'Turn left ahead'): 0.00%
-
+(23, b'Slippery road'): 100.00%  
+(19, b'Dangerous curve to the left'): 0.00%  
+(10, b'No passing for vehicles over 3.5 metric tons'): 0.00%  
+(42, b'End of no passing by vehicles over 3.5 metric tons'): 0.00%  
+(21, b'Double curve'): 0.00%  
+  
+(28, b'Children crossing'): 63.12%  
+(11, b'Right-of-way at the next intersection'): 32.57%  
+(30, b'Beware of ice/snow'): 4.04%  
+(27, b'Pedestrians'): 0.27%  
+(34, b'Turn left ahead'): 0.00%  
+  
 (9, b'No passing'): 100.00%  
 (41, b'End of no passing'): 0.00%  
 (12, b'Priority road'): 0.00%  

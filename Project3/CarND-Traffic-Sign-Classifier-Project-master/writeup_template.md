@@ -134,31 +134,52 @@ Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Stop Sign      		| Stop sign   									| 
-| U-turn     			| U-turn 										|
-| Yield					| Yield											|
-| 100 km/h	      		| Bumpy Road					 				|
-| Slippery Road			| Slippery Road      							|
+| Slippery Road    		| Slippery Road  									| 
+| Right-of-way at the next intersection     			| Children crossing										|
+| No passing				| No passing									|
+| no vehicles     		| Vehicles over 3.5 metric tons prohibited					 				|
+| Dangerous curve to the left			| Dangerous curve to the left     							|
 
 
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
+The model was able to correctly guess 3 of the 5 traffic signs, which gives an accuracy of 60%.
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
-The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
+The code for making predictions on my final model is located in the 17th cell of the Ipython notebook.
 
-For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
+For the first image, the model is relatively sure that this is a Slippery Road  (probability of 1.0), and the image does contain a stop sign. The top five soft max probabilities were
 
-| Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| .60         			| Stop sign   									| 
-| .20     				| U-turn 										|
-| .05					| Yield											|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Slippery Road      							|
+(23, b'Slippery road'): 100.00%
+(19, b'Dangerous curve to the left'): 0.00%
+(10, b'No passing for vehicles over 3.5 metric tons'): 0.00%
+(42, b'End of no passing by vehicles over 3.5 metric tons'): 0.00%
+(21, b'Double curve'): 0.00%
 
+(28, b'Children crossing'): 63.12%
+(11, b'Right-of-way at the next intersection'): 32.57%
+(30, b'Beware of ice/snow'): 4.04%
+(27, b'Pedestrians'): 0.27%
+(34, b'Turn left ahead'): 0.00%
 
-For the second image ... 
+(9, b'No passing'): 100.00%
+(41, b'End of no passing'): 0.00%
+(12, b'Priority road'): 0.00%
+(40, b'Roundabout mandatory'): 0.00%
+(0, b'Speed limit (20km/h)'): 0.00%
+
+(16, b'Vehicles over 3.5 metric tons prohibited'): 100.00%
+(42, b'End of no passing by vehicles over 3.5 metric tons'): 0.00%
+(10, b'No passing for vehicles over 3.5 metric tons'): 0.00%
+(35, b'Ahead only'): 0.00%
+(0, b'Speed limit (20km/h)'): 0.00%
+
+(19, b'Dangerous curve to the left'): 100.00%
+(35, b'Ahead only'): 0.00%
+(23, b'Slippery road'): 0.00%
+(34, b'Turn left ahead'): 0.00%
+(20, b'Dangerous curve to the right'): 0.00%
+
+ 
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?

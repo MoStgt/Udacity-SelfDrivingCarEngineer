@@ -161,24 +161,24 @@ For the first image, the model is relatively sure that this is a Slippery Road  
 (27, b'Pedestrians'): 0.27%
 (34, b'Turn left ahead'): 0.00%
 
-(9, b'No passing'): 100.00%
-(41, b'End of no passing'): 0.00%
-(12, b'Priority road'): 0.00%
-(40, b'Roundabout mandatory'): 0.00%
-(0, b'Speed limit (20km/h)'): 0.00%
-
-(16, b'Vehicles over 3.5 metric tons prohibited'): 100.00%
-(42, b'End of no passing by vehicles over 3.5 metric tons'): 0.00%
-(10, b'No passing for vehicles over 3.5 metric tons'): 0.00%
-(35, b'Ahead only'): 0.00%
-(0, b'Speed limit (20km/h)'): 0.00%
-
-(19, b'Dangerous curve to the left'): 100.00%
-(35, b'Ahead only'): 0.00%
-(23, b'Slippery road'): 0.00%
-(34, b'Turn left ahead'): 0.00%
-(20, b'Dangerous curve to the right'): 0.00%
-
+(9, b'No passing'): 100.00%  
+(41, b'End of no passing'): 0.00%  
+(12, b'Priority road'): 0.00%  
+(40, b'Roundabout mandatory'): 0.00%  
+(0, b'Speed limit (20km/h)'): 0.00%  
+  
+(16, b'Vehicles over 3.5 metric tons prohibited'): 100.00%  
+(42, b'End of no passing by vehicles over 3.5 metric tons'): 0.00%  
+(10, b'No passing for vehicles over 3.5 metric tons'): 0.00%  
+(35, b'Ahead only'): 0.00%  
+(0, b'Speed limit (20km/h)'): 0.00%  
+  
+(19, b'Dangerous curve to the left'): 100.00%  
+(35, b'Ahead only'): 0.00%  
+(23, b'Slippery road'): 0.00%  
+(34, b'Turn left ahead'): 0.00%  
+(20, b'Dangerous curve to the right'): 0.00%  
+  
  
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)

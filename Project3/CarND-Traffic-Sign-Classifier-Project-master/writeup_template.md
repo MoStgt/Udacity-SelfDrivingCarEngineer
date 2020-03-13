@@ -55,7 +55,7 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data set is structured. How many examples of each class is available in the training data set
 
-![Training Set][./imagesWriteUp/ExploratoryTrainData.PNG]
+![Training Set]['./imagesWriteUp/ExploratoryTrainData.PNG']
 
 ### Design and Test a Model Architecture
 

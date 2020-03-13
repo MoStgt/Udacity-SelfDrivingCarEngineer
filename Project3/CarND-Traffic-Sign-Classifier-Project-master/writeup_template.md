@@ -29,6 +29,12 @@ The goals / steps of this project are the following:
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
 [image9]: ./imagesWriteUp/ExploratoryTrainData.PNG "Training Data"
 [image10]: ./imagesWriteUp/keepLeftGrayRGB.PNG "Gray vs RGB image"
+[image11]: ./MyTrafficSigns/left_turn.png "Dangerous curve to the left"
+[image12]: ./MyTrafficSigns/noCarAllowed.png "Vehicles over 3.5 metric tons prohibited"
+[image13]: ./MyTrafficSigns/noOvertake.png "No passing"
+[image14]: ./MyTrafficSigns/rightWay.png "Right of way"
+[image15]: ./MyTrafficSigns/slippery.png "Slippery road"
+
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -94,26 +100,21 @@ My final model consisted of the following layers:
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
-To train the model, I used an ....
+To train the model, I used an epochs of 70, a batch size of 128 and a learning rate of 0.00096
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 My final model results were:
-* training set accuracy of ?
-* validation set accuracy of ? 
-* test set accuracy of ?
+* validation set accuracy of 94.9%
+* test set accuracy of 93.2%
 
 If an iterative approach was chosen:
-* What was the first architecture that was tried and why was it chosen?
-* What were some problems with the initial architecture?
+* What was the first architecture that was tried and why was it chosen? I started with the original LeNet architecture which was introduced in the chapters.
+* What were some problems with the initial architecture? I started with RGB images and when I switch to Grayscale images I needed to adjust the initial architecture from the input of a 32x32x3 image to a 32x32x1 image
 * How was the architecture adjusted and why was it adjusted? Typical adjustments could include choosing a different model architecture, adding or taking away layers (pooling, dropout, convolution, etc), using an activation function or changing the activation function. One common justification for adjusting an architecture would be due to overfitting or underfitting. A high accuracy on the training set but low accuracy on the validation set indicates over fitting; a low accuracy on both sets indicates under fitting.
-* Which parameters were tuned? How were they adjusted and why?
-* What are some of the important design choices and why were they chosen? For example, why might a convolution layer work well with this problem? How might a dropout layer help with creating a successful model?
-
-If a well known architecture was chosen:
-* What architecture was chosen?
-* Why did you believe it would be relevant to the traffic sign application?
-* How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?
+The architecture wasn't adjusted
+* Which parameters were tuned? How were they adjusted and why? The learning rate and the epochs were tuned until the accuracy of the test set was satisfying. The learning rate was adjusted from initially 0.001 to 0.00096 in 0.0001 steps and the epochs were increased in steps of 10 epochs. I got the impression that the learning rate was too high so that the optimizer couldn't find the right values and due to a smaller learning rate I increased the epochs.
+* What are some of the important design choices and why were they chosen? For example, why might a convolution layer work well with this problem? How might a dropout layer help with creating a successful model? A dropout layer can help to achieve higher accuracy on random images. It will reduce the probability of overfitting. 
  
 
 ### Test a Model on New Images
@@ -122,10 +123,10 @@ If a well known architecture was chosen:
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![alt text][image11] ![alt text][image12] ![alt text][image13] 
+![alt text][image14] ![alt text][image15]
 
-The first image might be difficult to classify because ...
+
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 

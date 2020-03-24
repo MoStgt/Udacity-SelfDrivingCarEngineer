@@ -15,7 +15,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/placeholder.png "Model Visualization"
-[image2]: ./examples/placeholder.png "Grayscaling"
+[image2]: ./ModelSum.png "Model Summary"
 [image3]: ./examples/placeholder_small.png "Recovery Image"
 [image4]: ./examples/placeholder_small.png "Recovery Image"
 [image5]: ./examples/placeholder_small.png "Recovery Image"
@@ -86,56 +86,8 @@ At the end of the process, the vehicle is able to drive autonomously around the 
 
 The final model architecture (model.py lines 66-83) consisted of a convolution neural network with the following layers and layer sizes.
 O = (W-K+2P)/S + 1
- $\frac{\frac{x}{1}}{x - y}$
+
 where O is the output height/length, W is the input height/length, K is the filter size, P is the padding, and S is the stride.
 
-Layer 1: Convolution with strides=(2,2), kernel 5x5 and output shape 31x98x24, with elu activation
+![Model Summary][image2]
 
-Layer 2: Convolution with strides=(2,2), valid padding, kernel 5x5 and output shape 14x47x36, with elu activation and dropout
-
-Layer 3: Convolution with strides=(2,2), valid padding, kernel 5x5 and output shape 5x22x48, with elu activation and dropout
-
-Layer 4: Convolution with strides=(1,1), valid padding, kernel 3x3 and output shape 3x20x64, with elu activation and dropout
-
-Layer 5: Convolution with strides=(1,1), valid padding, kernel 3x3 and output shape 1x18x64, with elu activation and dropout
-
-flatten 1152 output
-
-Layer 6: Fully Connected with 100 outputs and dropout
-
-Layer 7: Fully Connected with 50 outputs and dropout
-
-Layer 8: Fully Connected with 10 outputs and dropout
-
-dropout was set aggressively on each layer at .25 to avoid overtraining ###Output
-
-Layer Fully Connected with 1 output value for the steering angle.
-
-
-#### 3. Creation of the Training Set & Training Process
-
-To capture good driving behavior, I first recorded two laps on track one using center lane driving. Here is an example image of center lane driving:
-
-![alt text][image2]
-
-I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to .... These images show what a recovery looks like starting from ... :
-
-![alt text][image3]
-![alt text][image4]
-![alt text][image5]
-
-Then I repeated this process on track two in order to get more data points.
-
-To augment the data sat, I also flipped images and angles thinking that this would ... For example, here is an image that has then been flipped:
-
-![alt text][image6]
-![alt text][image7]
-
-Etc ....
-
-After the collection process, I had X number of data points. I then preprocessed this data by ...
-
-
-I finally randomly shuffled the data set and put Y% of the data into a validation set. 
-
-I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was Z as evidenced by ... I used an adam optimizer so that manually training the learning rate wasn't necessary.

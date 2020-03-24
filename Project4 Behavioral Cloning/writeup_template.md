@@ -86,7 +86,7 @@ At the end of the process, the vehicle is able to drive autonomously around the 
 
 The final model architecture (model.py lines 66-83) consisted of a convolution neural network with the following layers and layer sizes.
 O = (W-K+2P)/S + 1
-\frac{\frac{x}{1}}{x - y}
+ $\frac{\frac{x}{1}}{x - y}$
 where O is the output height/length, W is the input height/length, K is the filter size, P is the padding, and S is the stride.
 
 Layer 1: Convolution with strides=(2,2), kernel 5x5 and output shape 31x98x24, with elu activation
